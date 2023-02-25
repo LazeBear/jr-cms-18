@@ -15,4 +15,8 @@ app.use(validationError);
 // other error handlers
 app.use(unknownError);
 
+app.use('', (req, res) => {
+  res.send('healthy');
+});
+
 module.exports = app;
