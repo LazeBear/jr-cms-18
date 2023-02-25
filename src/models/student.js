@@ -7,7 +7,6 @@ const schema = new Schema({
   firstName: {
     type: String, // type: 'string'
     // some basic validation
-    minLength: 2,
     required: true,
   },
   lastName: {
